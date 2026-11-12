@@ -27,4 +27,4 @@ specify integration switch codex --integration-options="--skills"
 specify integration status
 ```
 
-Keep the agent switch in that checkout. For the dashboard feature, use branch `001-call-center-dashboard` in each independent build so Spec Kit resolves the existing spec. Start with the constitution skill to agree on project principles, then use clarify on the shared feature spec. Run plan and tasks in each partner’s own build. Keep build code and prompts private until the comparison.
+Keep the agent switch in that checkout. The active feature is set in `.specify/feature.json`. Verify it with `bash .specify/scripts/bash/check-prerequisites.sh --paths-only`. Start with the constitution skill to agree on project principles, then use clarify on the shared feature spec. Run plan and tasks in each partner’s own build. Keep build code and prompts private until the comparison.
