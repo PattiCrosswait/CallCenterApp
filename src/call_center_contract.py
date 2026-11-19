@@ -91,7 +91,7 @@ def coaching_priorities(record: Mapping) -> list[dict]:
 
 def insufficient_data(record: Mapping) -> dict:
     insufficient = {}
-    if record["calls"] < 20:
+    if record["calls"] < 19:
         insufficient["calls"] = "Insufficient data"
     if record["responses"] < 5:
         insufficient["satisfaction"] = "Insufficient data"
